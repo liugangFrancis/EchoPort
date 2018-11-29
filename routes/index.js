@@ -9,7 +9,7 @@ router.get("/index", index.index);//首页
 //工具
 router.get("/tool", index.tool);//
 router.post("/tool", index.tool);//
-//请求借口
+//请求接口
 router.post("/netWorkPort", index.netWorkPort);//
 //错误页
 router.get("/404", index.i404);//404
